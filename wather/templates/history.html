@@ -1,0 +1,8 @@
+{% extends 'base.html' %} {% block content %}
+<h1>history of search</h1>
+<ul>
+  {% for history_item in history %}
+  <li>{{history_item.title}}:{{history_item.temprature}}C</li>
+  {% endfor %}
+</ul>
+{% endblock content %}

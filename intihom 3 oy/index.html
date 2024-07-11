@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stlyle.css" />
+  </head>
+  <body>
+    <ol type="1">
+      <li>let можно изменить, а const некак неможно изменить</li>
+      <li>
+        if переводится как если, и else тоже переводится как если. К примеру :
+        если этот код неверные то то попробуй этот если этот код тоже не верные
+        попробуй этот код :
+        <p>
+          if (firstNum > secondNum) { alert(firstNum + ' больше чем ' + <br />
+          secondNum); } else if (firstNum == secondNum) { alert(firstNum + '
+          <br />
+          равен ' + secondNum); } else { alert(firstNum + ' меньше чем ' +
+          <br />
+          secondNum); }
+        </p>
+      </li>
+      <li>
+        <button class="bodybg" onclick="bodybg()">Press me</button>
+        <p class="name"></p>
+      </li>
+      <li>
+        event-это событие к примеру есть много событие onclick, ondblclick,
+        ondrag и другие первое событие работает когда на него нажали а второе
+        код работает когда на него двараза нажали и еще одному btn или другое
+        вещи можно дать два и более событие. событие-это к примеру день
+        рождение, новые год а onclick когда нажат и все .
+      </li>
+      <li>
+        для while и for нужны одинаковые вещи! К примеру: начало, условие, шаг.
+        while и for это цикл .while если не дать число сколько он далжен
+        повторятся то он сделает цикл один раз а for без понятия пример кодов:
+        начало-let i = 0; while условие-(i <= 15) { if (i % 2 !== 0) {
+        console.log(i + 3); } шаг-i++; } for ( начало-i = 0; условие-i <= 10;
+        шаг-i = i + 1) { console.log(i); }
+      </li>
+      <li>
+        <p class="result">Numbers</p>
+        <div class="randomiser">
+          <button onclick="randomiser()">randomiser</button>
+        </div>
+      </li>
+
+      <li>
+        <p class="result"></p>
+        <div class="randomiser">
+          <button onclick="randColor()">randomiser-color</button>
+        </div>
+        <div class="press"></div>
+        <button onclick="background()" class="background">changebg</button>
+      </li>
+    </ol>
+
+    <script src="main.js"></script>
+  </body>
+</html>

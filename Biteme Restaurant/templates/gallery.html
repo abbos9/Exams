@@ -1,0 +1,166 @@
+{% load static %}
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="site-portfolio-main">
+        <!-- H2 Heading -->
+        <h2>Fresh & healthy food</h2>
+        <!-- H1 Heading -->
+        <h1>Gallery</h1>
+
+        <!-- Tabs Buttons -->
+        <ul class="site-portfolio-tabs">
+          <!-- Active Item -->
+          <li class="active" data-filter="all">All</li>
+          <li data-filter="desert">Desert</li>
+          <li data-filter="lunch">Lunch</li>
+          <li data-filter="dinner">Dinner</li>
+          <li data-filter="breakfast">Breakfast</li>
+        </ul>
+
+        <!-- Bootstrap inner row -->
+        <div class="row">
+          <!-- Tabs Content -->
+          <div class="site-portfolio-tabs-content">
+            <!-- gym All -->
+            {% for all in All %}
+            <div
+              class="all desert portfolio-items col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding"
+            >
+              <!-- box -->
+              <div class="site-box">
+                <!-- Image -->
+                <img src="{{all.image}}" alt="Image" />
+                <!-- Caption -->
+                <div class="portfolio-caption">
+                  <!-- Light box open click on icon -->
+                  <a class="venobox" href="{{all.image}}" data-gall="myGallery">
+                    <i class="fa fa-plus"></i>
+                    <!-- Icon -->
+                  </a>
+                  <h5>{{all.category}}</h5>
+                  <!-- heading -->
+                  <h6>{{all.title}}</h6>
+                  <!-- Sub heading -->
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+            <!-- fitness Desert -->
+            {% for desert in deserts %}
+            <div
+              class="all lunch dinner breakfast portfolio-items col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding"
+            >
+              <!-- box -->
+              <div class="site-box">
+                <!-- Image -->
+                <img src="{{desert.image}}" alt="Image" />
+                <!-- Caption -->
+                <div class="portfolio-caption">
+                  <!-- Light box open click on icon -->
+                  <a
+                    class="venobox"
+                    href="{{desert.image}}"
+                    data-gall="myGallery"
+                  >
+                    <i class="fa fa-plus"></i>
+                    <!-- Icon -->
+                  </a>
+                  <h5>{{desert.category}}</h5>
+                  <!-- heading -->
+                  <h6>{{desert.title}}</h6>
+                  <!-- Sub heading -->
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+            <!-- gym Lunch -->
+            {% for lunch in lunchs %}
+            <div
+              class="all desert lunch portfolio-items col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding"
+            >
+              <!-- box -->
+              <div class="site-box">
+                <!-- Image -->
+                <img src="{{lunch.image}}" alt="Image" />
+                <!-- Caption -->
+                <div class="portfolio-caption">
+                  <!-- Light box open click on icon -->
+                  <a
+                    class="venobox"
+                    href="{{lunch.image}}"
+                    data-gall="myGallery"
+                  >
+                    <i class="fa fa-plus"></i>
+                    <!-- Icon -->
+                  </a>
+                  <h5>{{lunch.category}}</h5>
+                  <!-- heading -->
+                  <h6>{{lunch.title}}</h6>
+                  <!-- Sub heading -->
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+            <!-- fitness Dinner -->
+            {% for dinner in dinners %}
+            <div
+              class="all lunch breakfast portfolio-items col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding"
+            >
+              <!-- box -->
+              <div class="site-box">
+                <!-- Image -->
+                <img src="{{dinner.image}}" alt="Image" />
+                <!-- Caption -->
+                <div class="portfolio-caption">
+                  <!-- Light box open click on icon -->
+                  <a
+                    class="venobox"
+                    href="{{dinner.image}}"
+                    data-gall="myGallery"
+                  >
+                    <i class="fa fa-plus"></i>
+                    <!-- Icon -->
+                  </a>
+                  <h5>{{dinner.category}}</h5>
+                  <!-- heading -->
+                  <h6>{{dinner.title}}</h6>
+                  <!-- Sub heading -->
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+            <!-- gym Breakfast -->
+            {% for breakfast in breakfasts %}
+            <div
+              class="all desert dinner breakfast portfolio-items col-lg-3 col-md-4 col-sm-6 col-xs-12 no-padding"
+            >
+              <!-- box -->
+              <div class="site-box">
+                <!-- Image -->
+                <img src="{{breakfast.image}}" alt="Image" />
+                <!-- Caption -->
+                <div class="portfolio-caption">
+                  <!-- Light box open click on icon -->
+                  <a
+                    class="venobox"
+                    href="{{breakfast.image}}"
+                    data-gall="myGallery"
+                  >
+                    <i class="fa fa-plus"></i>
+                    <!-- Icon -->
+                  </a>
+                  <h5>{{breakfast.caption}}</h5>
+                  <!-- heading -->
+                  <h6>{{breakfast.title}}</h6>
+                  <!-- Sub heading -->
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

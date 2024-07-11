@@ -1,0 +1,214 @@
+.header-links ul li a {
+  text-decoration: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #3d3d3f;
+}
+.header-links ul {
+  display: flex;
+  gap: 60px;
+}
+.header-links ul li a:hover {
+  color: #f35f2f;
+}
+
+.header-btn button {
+  /* Gd color */
+
+  background: linear-gradient(
+    2.79deg,
+    #f35f2f -13.68%,
+    rgba(243, 95, 47, 0.75) 121.16%
+  );
+  opacity: 0.85;
+  border-radius: 5px;
+}
+.first-title h2 {
+  max-width: 500px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 85px;
+
+  /* Primary */
+
+  color: #3d3d3f;
+}
+.first-title p {
+  max-width: 536px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* Primary */
+
+  color: #3d3d3f;
+}
+.first-contend {
+  display: flex;
+  justify-content: center;
+  height: 651px;
+  align-items: center;
+}
+.second-contend h1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  /* identical to box height */
+
+  /* Primary */
+
+  color: #3d3d3f;
+  display: flex;
+  justify-content: center;
+}
+.card-text {
+  text-align: center;
+}
+
+#two .card img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 99.68px;
+  max-height: 90px;
+}
+#three .card img {
+  border-radius: 90px;
+}
+#three .card {
+  text-align: center;
+}
+#three .card img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 99.68px;
+  max-height: 90px;
+}
+.third-contend .card:nth-child(2) img {
+  border: radius 90px;
+  background: #ff7a50d4;
+}
+#three .container h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  /* identical to box height */
+
+  /* Primary */
+
+  color: #3d3d3f;
+}
+#four .container h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  /* identical to box height */
+
+  /* Primary */
+
+  color: #3d3d3f;
+}
+.cards-four .card-group {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+}
+.fivth-contend h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  /* identical to box height */
+
+  /* Primary */
+
+  color: #3d3d3f;
+}
+.form-contend h1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #3d3d3f;
+}
+.form-inp input {
+  justify-content: center;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 120px rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+  max-width: 343.17px;
+  max-height: 52.38px;
+}
+.form-inp {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  gap: 49px;
+}
+.form-contend textarea {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.form-btn button {
+  margin-right: 279px;
+  /* Gd color */
+  color: #ffffff;
+  background: linear-gradient(
+    2.79deg,
+    #f35f2f -13.68%,
+    rgba(243, 95, 47, 0.75) 121.16%
+  );
+  opacity: 0.85;
+  border-radius: 5px;
+}
+.form-btn button:hover {
+  background-color: #f35f2f;
+}
+.end-of-footer p {
+  display: flex;
+  justify-content: space-between;
+}
+.right-text {
+  display: flex;
+  gap: 30px;
+}
+.second-contend .card {
+  width: 380px;
+}
+.footer-nav ul li a {
+  text-decoration: none;
+}
+footer ul li a {
+  text-decoration: none;
+}

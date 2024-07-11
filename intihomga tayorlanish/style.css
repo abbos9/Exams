@@ -1,0 +1,354 @@
+.logo h6 {
+  color: #34c759;
+}
+.logo {
+  display: flex;
+  gap: 10px;
+}
+.logo img {
+  align-items: center;
+  height: 19px;
+}
+.links ul {
+  list-style: none;
+  display: flex;
+  gap: 36px;
+}
+.links ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 90px;
+  /* identical to box height, or 643% */
+
+  color: #ffffff;
+}
+.header-contend {
+  display: flex;
+  justify-content: space-between;
+}
+.header-contend {
+  align-items: center;
+  height: 89px;
+}
+.links a:hover {
+  color: #34c759;
+}
+body {
+  background-color: #191919;
+}
+header {
+  max-width: 100%;
+  background: url(img/placeholder.png);
+}
+#one {
+  height: 400px;
+  max-width: 100%;
+  background: url(img/placeholder.png);
+}
+#one background {
+  margin: 0 auto;
+  width: 100%;
+}
+.own-title h1 {
+  margin: 0 auto;
+  max-width: 1100px;
+  font-family: "Helvetica Neue";
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.own-title p {
+  margin: 0 auto;
+  max-width: 595px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+  letter-spacing: -0.2px;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+.first-btn button {
+  display: flex;
+  justify-content: center;
+  max-height: 72px;
+  max-width: 220px;
+  background: #34c759;
+  border-radius: 43px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.2em;
+
+  /* Black */
+
+  color: #1a1a1a;
+  margin: 0 auto;
+}
+.gallery img {
+  color: rgba(255, 255, 255, 0.5);
+}
+.gallery h5 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.gallery h6 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  /* or 429% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.background-text {
+  position: relative;
+}
+.background-text h1 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 150px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.2em;
+
+  color: #303030;
+}
+.background-text h2 {
+  position: absolute;
+  bottom: 43px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 60px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.2em;
+
+  color: #d9d9d9;
+}
+#two .container {
+  background: #252525;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.second-contend p {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 734px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 188% */
+
+  text-align: center;
+
+  color: #a6a6a6;
+}
+.right-btn {
+  display: flex;
+  height: 270px;
+  align-items: center;
+}
+.left-btn {
+  display: flex;
+  height: 270px;
+  align-items: center;
+}
+.background-text-two {
+  position: relative;
+}
+.background-text-two h1 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 150px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 0.2em;
+
+  color: #303030;
+}
+.background-text-two h2 {
+  position: absolute;
+  bottom: 32px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 90px;
+  /* identical to box height, or 250% */
+
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: capitalize;
+
+  color: #d9d9d9;
+}
+.card-one {
+  background: #34c759;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  max-width: 255px;
+}
+.third-contend hr {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 2px;
+  color: #34c759;
+}
+.card-two {
+  background: #252525;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  max-width: 255px;
+}
+.cards .card-one hr {
+  color: #191919;
+}
+.cards .card-two hr {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 2px;
+  color: #34c759;
+}
+.card-three {
+  background: #252525;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  max-width: 255px;
+}
+.card-four {
+  background: #252525;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  max-width: 255px;
+}
+.card-one .card-title {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.275px;
+  text-transform: capitalize;
+
+  color: #191919;
+}
+.card-two.card-title {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.275px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.card button:hover {
+  background-color: #34c759;
+}
+.fivth-card h6 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: -0.225px;
+
+  color: #ffffff;
+}
+.fivth-card p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: -0.15px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+.fivth-gallery .fivth-card {
+  display: flex;
+  gap: 24px;
+}
+.fivth-card {
+  height: 50px;
+  align-items: center;
+}
+#five .second-gallery img {
+  margin: 0 auto;
+  margin-top: 30px;
+}
+#six .six-gallery img {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.youtube-video {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.seven-gallery {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+footer {
+  background-color: #252525;
+}
+footer hr {
+  color: #303030;
+}
